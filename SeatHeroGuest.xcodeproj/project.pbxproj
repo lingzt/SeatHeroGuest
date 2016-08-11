@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7247C0667581BFD489A92AF2 /* libPods-SeatHeroGuest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA21DAD09E55C20A6F32C43 /* libPods-SeatHeroGuest.a */; };
+		90B2146F1D534BBA0064CF76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B2146E1D534BBA0064CF76 /* main.m */; };
+		90B214721D534BBA0064CF76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B214711D534BBA0064CF76 /* AppDelegate.m */; };
+		90B214751D534BBA0064CF76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B214741D534BBA0064CF76 /* ViewController.m */; };
+		90B214781D534BBA0064CF76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B214761D534BBA0064CF76 /* Main.storyboard */; };
+		90B2147A1D534BBA0064CF76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90B214791D534BBA0064CF76 /* Assets.xcassets */; };
+		90B2147D1D534BBA0064CF76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B2147B1D534BBA0064CF76 /* LaunchScreen.storyboard */; };
+		90B214851D534C030064CF76 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90B214841D534C030064CF76 /* GoogleService-Info.plist */; };
+		90B214881D534EE60064CF76 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B214871D534EE60064CF76 /* EventViewController.m */; };
+		90B2148A1D5351390064CF76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B214891D5351390064CF76 /* Foundation.framework */; };
+		90B2148C1D5351450064CF76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B2148B1D5351450064CF76 /* CoreGraphics.framework */; };
+		90B2148E1D5351550064CF76 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B2148D1D5351550064CF76 /* QuartzCore.framework */; };
+		90B214901D5351620064CF76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B2148F1D5351620064CF76 /* UIKit.framework */; };
+		90B214921D53516A0064CF76 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B214911D53516A0064CF76 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CCA4F785837031BF8C6CA90 /* Pods-SeatHeroGuest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeatHeroGuest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeatHeroGuest/Pods-SeatHeroGuest.release.xcconfig"; sourceTree = "<group>"; };
+		7201C9FB6295B1197582552E /* Pods-SeatHeroGuest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeatHeroGuest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeatHeroGuest/Pods-SeatHeroGuest.debug.xcconfig"; sourceTree = "<group>"; };
+		90B2146A1D534BBA0064CF76 /* SeatHeroGuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeatHeroGuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B2146E1D534BBA0064CF76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90B214701D534BBA0064CF76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90B214711D534BBA0064CF76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		90B214731D534BBA0064CF76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		90B214741D534BBA0064CF76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		90B214771D534BBA0064CF76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90B214791D534BBA0064CF76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90B2147C1D534BBA0064CF76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90B2147E1D534BBA0064CF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90B214841D534C030064CF76 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "SeatHeroGuest/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		90B214861D534EE60064CF76 /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		90B214871D534EE60064CF76 /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
+		90B214891D5351390064CF76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		90B2148B1D5351450064CF76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		90B2148D1D5351550064CF76 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		90B2148F1D5351620064CF76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		90B214911D53516A0064CF76 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EBA21DAD09E55C20A6F32C43 /* libPods-SeatHeroGuest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeatHeroGuest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90B214671D534BBA0064CF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B214921D53516A0064CF76 /* AVFoundation.framework in Frameworks */,
+				90B214901D5351620064CF76 /* UIKit.framework in Frameworks */,
+				90B2148E1D5351550064CF76 /* QuartzCore.framework in Frameworks */,
+				90B2148C1D5351450064CF76 /* CoreGraphics.framework in Frameworks */,
+				90B2148A1D5351390064CF76 /* Foundation.framework in Frameworks */,
+				7247C0667581BFD489A92AF2 /* libPods-SeatHeroGuest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		083CB5BD52D699DF04D35A1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7201C9FB6295B1197582552E /* Pods-SeatHeroGuest.debug.xcconfig */,
+				4CCA4F785837031BF8C6CA90 /* Pods-SeatHeroGuest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		90B214611D534BBA0064CF76 = {
+			isa = PBXGroup;
+			children = (
+				90B214841D534C030064CF76 /* GoogleService-Info.plist */,
+				90B2146C1D534BBA0064CF76 /* SeatHeroGuest */,
+				90B2146B1D534BBA0064CF76 /* Products */,
+				083CB5BD52D699DF04D35A1D /* Pods */,
+				AB1F7B8623BCC6DF8D755505 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		90B2146B1D534BBA0064CF76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90B2146A1D534BBA0064CF76 /* SeatHeroGuest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90B2146C1D534BBA0064CF76 /* SeatHeroGuest */ = {
+			isa = PBXGroup;
+			children = (
+				90B214701D534BBA0064CF76 /* AppDelegate.h */,
+				90B214711D534BBA0064CF76 /* AppDelegate.m */,
+				90B214731D534BBA0064CF76 /* ViewController.h */,
+				90B214741D534BBA0064CF76 /* ViewController.m */,
+				90B214861D534EE60064CF76 /* EventViewController.h */,
+				90B214871D534EE60064CF76 /* EventViewController.m */,
+				90B214761D534BBA0064CF76 /* Main.storyboard */,
+				90B214791D534BBA0064CF76 /* Assets.xcassets */,
+				90B2147B1D534BBA0064CF76 /* LaunchScreen.storyboard */,
+				90B2147E1D534BBA0064CF76 /* Info.plist */,
+				90B2146D1D534BBA0064CF76 /* Supporting Files */,
+			);
+			path = SeatHeroGuest;
+			sourceTree = "<group>";
+		};
+		90B2146D1D534BBA0064CF76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90B2146E1D534BBA0064CF76 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB1F7B8623BCC6DF8D755505 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90B214911D53516A0064CF76 /* AVFoundation.framework */,
+				90B2148F1D5351620064CF76 /* UIKit.framework */,
+				90B2148D1D5351550064CF76 /* QuartzCore.framework */,
+				90B2148B1D5351450064CF76 /* CoreGraphics.framework */,
+				90B214891D5351390064CF76 /* Foundation.framework */,
+				EBA21DAD09E55C20A6F32C43 /* libPods-SeatHeroGuest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90B214691D534BBA0064CF76 /* SeatHeroGuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90B214811D534BBA0064CF76 /* Build configuration list for PBXNativeTarget "SeatHeroGuest" */;
+			buildPhases = (
+				7B48D41CEB6E8A9BF5BCE3B7 /* [CP] Check Pods Manifest.lock */,
+				90B214661D534BBA0064CF76 /* Sources */,
+				90B214671D534BBA0064CF76 /* Frameworks */,
+				90B214681D534BBA0064CF76 /* Resources */,
+				07235E4D8A2F8B29042F4C2C /* [CP] Embed Pods Frameworks */,
+				5951A2DA6E81660B04F998D4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeatHeroGuest;
+			productName = SeatHeroGuest;
+			productReference = 90B2146A1D534BBA0064CF76 /* SeatHeroGuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90B214621D534BBA0064CF76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Detroit Labs";
+				TargetAttributes = {
+					90B214691D534BBA0064CF76 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 90B214651D534BBA0064CF76 /* Build configuration list for PBXProject "SeatHeroGuest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90B214611D534BBA0064CF76;
+			productRefGroup = 90B2146B1D534BBA0064CF76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90B214691D534BBA0064CF76 /* SeatHeroGuest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90B214681D534BBA0064CF76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B2147D1D534BBA0064CF76 /* LaunchScreen.storyboard in Resources */,
+				90B214851D534C030064CF76 /* GoogleService-Info.plist in Resources */,
+				90B2147A1D534BBA0064CF76 /* Assets.xcassets in Resources */,
+				90B214781D534BBA0064CF76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07235E4D8A2F8B29042F4C2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeatHeroGuest/Pods-SeatHeroGuest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5951A2DA6E81660B04F998D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeatHeroGuest/Pods-SeatHeroGuest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B48D41CEB6E8A9BF5BCE3B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90B214661D534BBA0064CF76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B214751D534BBA0064CF76 /* ViewController.m in Sources */,
+				90B214881D534EE60064CF76 /* EventViewController.m in Sources */,
+				90B214721D534BBA0064CF76 /* AppDelegate.m in Sources */,
+				90B2146F1D534BBA0064CF76 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		90B214761D534BBA0064CF76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90B214771D534BBA0064CF76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90B2147B1D534BBA0064CF76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90B2147C1D534BBA0064CF76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90B2147F1D534BBA0064CF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		90B214801D534BBA0064CF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90B214821D534BBA0064CF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7201C9FB6295B1197582552E /* Pods-SeatHeroGuest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SeatHeroGuest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.SeatHeroGuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90B214831D534BBA0064CF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CCA4F785837031BF8C6CA90 /* Pods-SeatHeroGuest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SeatHeroGuest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.SeatHeroGuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90B214651D534BBA0064CF76 /* Build configuration list for PBXProject "SeatHeroGuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B2147F1D534BBA0064CF76 /* Debug */,
+				90B214801D534BBA0064CF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90B214811D534BBA0064CF76 /* Build configuration list for PBXNativeTarget "SeatHeroGuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B214821D534BBA0064CF76 /* Debug */,
+				90B214831D534BBA0064CF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90B214621D534BBA0064CF76 /* Project object */;
+}
